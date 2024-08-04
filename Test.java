@@ -645,4 +645,11 @@ public class Test{
     public static void main(String[] args) {
         System.out.println("Git Revision");
     }
+   
+    @Override
+    public String toString() {
+        return "Test []";
+    }
 }
+
+    
